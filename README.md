@@ -66,11 +66,11 @@
 ## 🚀 Quick Start
 
 ```bash
-# Install Frappe Manager (stable)
-pipx install frappe-manager 
+# As root on Ubuntu:
+bash <(curl -s https://raw.githubusercontent.com/rtCamp/Frappe-Manager/develop/scripts/install.sh) [username]
 
-# Install Frappe Manager (latest develop)
-pipx install git+https://github.com/rtcamp/frappe-manager@develop 
+# As root on macOS:
+zsh <(curl -s https://raw.githubusercontent.com/rtCamp/Frappe-Manager/develop/scripts/install.sh) [username]
 
 # Setup shell completion
 fm --install-completion
